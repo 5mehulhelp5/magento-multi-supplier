@@ -79,3 +79,6 @@ class CreateSupplierTable implements SchemaPatchInterface
 
     public static function getDependencies(): array
     {
+        return [];
+    }
+}
